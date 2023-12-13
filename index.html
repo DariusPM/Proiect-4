@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+    <div class="title">
+        <h1> Weather Forecast</h1>
+        <P>Climate is what we expect, weather is what we get.</P>
+    </div>
+    <div class="container">
+        <div class="weatherheader">
+            <form class="weathersearch">
+                <input type="text" placeholder="Enter City Name" class="weatherserchform">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </form>
+            <div class="weatherunits">
+                <span class="weatherunitcelsius">&#176C</span>
+                <span class="weatherunitfarenheit">&#176F</span>
+            </div>
+        </div>
+        <div class="weatherbody">
+            <h2 class="weathercity"></h2>
+            <div class="weatherdatetime">
+
+            </div>
+            <div class="weatherforecast">
+
+            </div>
+            <div class="weathericon">
+
+            </div>
+            <p class="weathertemp"></p>
+            <div class="weatherminmax">
+
+            </div>
+        </div>
+        <div class="weatherinfo">
+            <div class="weathercard">
+                <i class="fa-solid fa-temperature-full"></i>
+                <div>
+                    <p>Real Fell</p>
+                    <P class="weatherrealfeel">
+                        <18&#176< /p>
+                </div>
+            </div>
+            <div class="weathercard">
+                <i class="fa-solid fa-droplet"></i>
+                <div>
+                    <p>Humidity</p>
+                    <P class="weatherhumidity">
+                        <18&#176< /p>
+                </div>
+            </div>
+            <div class="weathercard">
+                <i class="fa-solid fa-wind"></i>
+                <div>
+                    <p>Wind</p>
+                    <P class="weatherwind">
+                        <18&#176< /p>
+                </div>
+            </div>
+            <div class="weathercard">
+                <i class="fa-solid fa-gauge-high"></i>
+                <div>
+                    <p>Preassure</p>
+                    <P class="weatherpressure">
+                        <18&#176< /p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/7f12564655.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
